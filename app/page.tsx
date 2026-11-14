@@ -49,7 +49,7 @@ export default function Home() {
         <section className="hero">
           <div className="hero-copy">
             <p className="eyebrow">
-              <span className="pulse-dot" /> Transmission incoming · Kozhikode, Kerala
+              <span className="pulse-dot" /> Transmission incoming · Neural core v0.1 online
             </p>
             <h1 className="hero-title">
               <span className="line">Something</span>
