@@ -49,7 +49,7 @@ export default function Home() {
         <section className="hero">
           <div className="hero-copy">
             <p className="eyebrow">
-              <span className="pulse-dot" /> Transmission incoming · Neural core v0.1 online
+              <span className="pulse-dot" /> <span className="eyebrow-lead">Transmission incoming · </span>Neural core v0.1 online
             </p>
             <h1 className="hero-title">
               <span className="line">Something</span>
@@ -78,10 +78,10 @@ export default function Home() {
               <a href="#contact" className="btn-primary">Request early access</a>
               <a href="#vision" className="btn-ghost">Decode the signal ↓</a>
             </div>
+            <BootSequence />
           </div>
           <div className="hero-visual">
             <SoulCore />
-            <BootSequence />
           </div>
           <div className="launch-meter" aria-label="Launch progress">
             <span className="mono">LAUNCH SEQUENCE</span>
